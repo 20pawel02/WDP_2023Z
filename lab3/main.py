@@ -33,7 +33,3 @@ def suma(lista):
     for i in lista:
         wynik += i
     return wynik
-
-
-lista = [2, 1, 3, 7]
-print(suma(lista))
