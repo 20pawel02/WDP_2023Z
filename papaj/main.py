@@ -1,10 +1,10 @@
 from PIL import Image
 import numpy as np
 
-im = Image.open("kobra.png", "r")
+im = Image.open("engi_tf2.png", "r")
 
 im = im.convert("L")
-im = im.resize((855, 450))
+im = im.resize((900, 400))
 
 char_map = "@%#*+=-:. "
 
@@ -17,5 +17,5 @@ for row in pixels:
 
 print(ascii_image)
 
-with open("kobra_ascii.txt", "w") as text_file:
+with open("ya_ugly.txt", "w") as text_file:
     text_file.write(ascii_image)
