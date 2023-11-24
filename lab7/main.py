@@ -30,4 +30,3 @@ def czy_liczba_jest_doskonala(liczba):
 
 def zad_1b(liczba):
     wynik = []
-    

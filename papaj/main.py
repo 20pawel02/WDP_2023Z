@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-im = Image.open("engi_tf2.png", "r")
+im = Image.open("meeh.png", "r")
 
 im = im.convert("L")
 im = im.resize((900, 400))
@@ -17,5 +17,5 @@ for row in pixels:
 
 print(ascii_image)
 
-with open("ya_ugly.txt", "w") as text_file:
+with open("meeh.txt", "w") as text_file:
     text_file.write(ascii_image)
