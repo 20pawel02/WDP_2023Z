@@ -4,7 +4,7 @@ import numpy as np
 im = Image.open("meeh.png", "r")
 
 im = im.convert("L")
-im = im.resize((900, 400))
+im = im.resize((2137, 2137))
 
 char_map = "@%#*+=-:. "
 
